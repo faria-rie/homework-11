@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Header Part Start */
+.nav-link {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+.hireBtn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: #5e3bee;
+  color: #fff;
+}
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerPart .col-lg-5 {
+  padding-top: 120px;
+}
+
+#bannerPart h3 {
+  color: #5e3bee;
+  line-height: 26px;
+}
+
+#bannerPart h1 {
+  padding-top: 50px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #111111;
+}
+
+#bannerPart img {
+  width: 100%;
+  height: auto;
+}
+
+#bannerPart .col-lg-5 a {
+  width: 205px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+/* Banner Part End */
+
+/* Counter Part Start */
+#counterPart {
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.counterItem {
+  text-align: center;
+}
+
+.counterItem h3 {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.counterItem h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+/* Counter Part End */
+
+/* Service Part Start */
+#servicePart {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.serviceHead {
+  text-align: center;
+}
+
+.serviceHead h6 {
+  color: #5e3bee;
+  padding: 25px 0;
+  line-height: 15px;
+  font-size: 16px;
+}
+
+.serviceHead h2 {
+  font-size: 44px;
+  color: black;
+  padding: 20px 0;
+  font-weight: 400;
+  line-height: 55px;
+}
+
+.serviceHead p {
+  color: #121212b2;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.serviceItem {
+  height: 286px;
+  margin-top: 70px;
+  padding: 50px 35px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.12);
+}
+
+.serviceItem i{
+    font-size: 30px;
+    color: #5e3bee;
+}
+
+.serviceItem h3 {
+  padding-top: 20px;
+}
+
+.serviceItem p {
+  padding-top: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Service Part End */
+
+/* Text Part Start */
+#text {
+  padding: 80px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+#text h5 {
+  font-size: 15px;
+  color: #2563eb;
+  padding: 20px 0;
+}
+
+#text h1 {
+  font-size: 60px;
+  color: black;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+#text p {
+  font-size: 16px;
+  color: #121212b2;
+  line-height: 30px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#text a {
+  padding: 20px 50px;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+}
+/* Text Part End */
+
+/* Logo Part Start */
+#logoPart {
+  padding-top: 90px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+/* Logo Part End */
+
+/* Portfolio Part Start */
+#portfolioPart {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.portfolioHead {
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.portfolioHead h6 {
+    font-size: 14px;
+    color: #5e3bee;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.portfolioHead h2 {
+    font-size: 44px;
+    font-weight: 600;
+    color: #111;
+}
+
+.portfolioHead p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #777;
+    margin-bottom: 0;
+}
+
+.portfolioItem {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+.portfolioImg {
+    width: 100%;
+    height: 209px;
+    background-color: #c4c4c4;
+}
+
+.portfolioText {
+    padding: 18px 25px 22px;
+}
+
+.portfolioText h4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 7px;
+}
+
+.portfolioText p {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 0;
+}
+/* Portfolio Part End */
+
+#Clients{
+    padding: 70px auto;
+    background: #ffffff;
+     padding: 70px 0;
+}
+.card-two{
+    padding-top: 40px;
+
+}
+.col-lg-6{
+    padding: 10px 40px;
+        box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.10);
+        column-gap: 40px;
+         border-radius: 15px;
+}
+.img-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.img-tex{
+    display: flex;
+}
+.logo{
+    padding-top: 70px;
+}
+.col-lg-6 p{
+    padding-top: 40px;
+}
+.icon{
+    margin-top: 20px;
+}
+.img{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.card-two-headerpart{
+    background:#ffffff;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.card-two-headerpart h5{
+    color: #5E3BEE;
+    font-size: 10px;
+    padding: 20px 0;
+    font-size: 15px;
+
+}
+.card-two-headerpart h2{
+    font-weight: 800;
+    line-height: 30px;
+    font-size: 44px;
+}
+.card-two-headerpart p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#interested{
+    width: 100%;
+    background:#D9D9D9;
+    padding: 125px 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Working a{
+    height: 70px;
+    width: 205px;
+    background-color: #EE3B9A;
+    border-radius:25px;
+    color: #ffffff;
+    padding-top: 25px;
+    margin-top: 20px;
+
+}
+/* Client Part End */
+
+
+
+    /* Cta part start  */
+
+
+.cta-section {
+  width: 100%;
+  max-width: 1208px;
+  min-height: 471px;
+  background-color: #f8f9fa; 
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.cta-container {
+  text-align: center;
+}
+
+.cta-container h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.3;
+  margin-bottom: 24px;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #e91e63; 
+  color: #ffffff;
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-btn:hover {
+  background-color: #d81b60;
+  transform: translateY(-2px);
+}
+    /* Cta part End  */
+
